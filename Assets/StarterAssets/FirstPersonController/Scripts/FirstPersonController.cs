@@ -86,6 +86,11 @@ namespace StarterAssets
 			}
 		}
 
+		private void OnMouseDown()
+        {
+			Debug.Log("Firing Weapon");
+        }
+
 		private void Awake()
 		{
 			// get a reference to our main camera
